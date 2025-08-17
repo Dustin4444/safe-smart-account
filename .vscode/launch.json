@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+    apps
+    applications
+    AE850033F185
+    anycode
+    alwaysShowEditorActions
+        {
+            "name": "truffle test (ganache running)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/truffle/build/cli.bundled.js",
+            "args": [
+                "test"
+            ],
+            "cwd": "${workspaceRoot}",
+            "outFiles": [
+                "${workspaceRoot}/test/**/*"
+            ],
+        },
+    ]
+}
